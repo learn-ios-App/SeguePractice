@@ -13,6 +13,7 @@
 		8B287B672995187B00198A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B287B652995187B00198A87 /* Main.storyboard */; };
 		8B287B692995187C00198A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B287B682995187C00198A87 /* Assets.xcassets */; };
 		8B287B6C2995187C00198A87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B287B6A2995187C00198A87 /* LaunchScreen.storyboard */; };
+		8B287B7429951AE200198A87 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B287B7329951AE200198A87 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8B287B682995187C00198A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B287B6B2995187C00198A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B287B6D2995187C00198A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B287B7329951AE200198A87 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8B287B5F2995187B00198A87 /* AppDelegate.swift */,
 				8B287B612995187B00198A87 /* SceneDelegate.swift */,
 				8B287B632995187B00198A87 /* ViewController.swift */,
+				8B287B7329951AE200198A87 /* GreenViewController.swift */,
 				8B287B652995187B00198A87 /* Main.storyboard */,
 				8B287B682995187C00198A87 /* Assets.xcassets */,
 				8B287B6A2995187C00198A87 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B287B7429951AE200198A87 /* GreenViewController.swift in Sources */,
 				8B287B642995187B00198A87 /* ViewController.swift in Sources */,
 				8B287B602995187B00198A87 /* AppDelegate.swift in Sources */,
 				8B287B622995187B00198A87 /* SceneDelegate.swift in Sources */,

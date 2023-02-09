@@ -1,19 +1,18 @@
-//
-//  ViewController.swift
-//  SeguePractice
-//
-//  Created by 渡邊魁優 on 2023/02/09.
-//
 
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var redTextField: UITextField!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func exit(segue: UIStoryboardSegue) {
+        
     }
-
-
+    //画面遷移の時に実行されるメソッド(segueが動く前)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //どのsegueが動くかによって条件分岐
+        if segue.identifier == "NextSegue" {
+            let green = segue.destination as! GreenViewController
+            green.greenText = self.redTextField.text ?? ""
+        }
+    }
 }
-
